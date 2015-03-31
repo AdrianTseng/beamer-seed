@@ -165,3 +165,5 @@ sympy-plots-for-*.tex/
 *.bak
 *.sav
 
+# PDF
+*.pdf
