@@ -103,7 +103,7 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\frametitle{大纲} % Table of contents slide, comment this block out to remove it
 \tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
 \end{frame}
 
@@ -112,93 +112,104 @@
 %----------------------------------------------------------------------------------------
 
 %------------------------------------------------
-\section{First Section} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\section{普通使用方式} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
 %------------------------------------------------
 
-\subsection{Subsection Example} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
+\subsection{文字与格式} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 
 \begin{frame}
-\frametitle{Paragraphs of Text}
-Sed iaculis dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum. Donec vestibulum ligula non lorem vulputate fermentum accumsan neque mollis.\\~\\
+\frametitle{句段}
 
-Sed diam enim, sagittis nec condimentum sit amet, ullamcorper sit amet libero. Aliquam vel dui orci, a porta odio. Nullam id suscipit ipsum. Aenean lobortis commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
+本人在Github上面布置了一份使用Xelatex编译器生成中文 PPT 的种子。主要作用就是使用Latex 生成实验室做（学术）报告用的演示文稿。\\~\\
+
+Latex用来做学术报告的好处自然不用多说，对于公式、表格、数据、图表的支持都很上道，由于对于已经使用Latex排版完成论文或者实验报告的同学来说更是方便至极。
+
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Bullet Points}
+\frametitle{无序列表}
 \begin{itemize}
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
-\item Aliquam blandit faucibus nisi, sit amet dapibus enim tempus eu
-\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
-\item Nam cursus est eget velit posuere pellentesque
-\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida
+\item 盈盈一水间，默默不得语
+\item 自在飞花轻似梦
+\item 寒来暑往，秋收冬藏
+\item 发现更大的世界
+\item 倬彼甫田，岁取十千。我取其陈，食我农人。自古有年。今适南亩，或耘或耔。黍稷薿薿，攸介攸止，烝我髦士。
 \end{itemize}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Blocks of Highlighted Text}
-\begin{block}{Block 1}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
+\frametitle{高亮文字框}
+
+\begin{block}{青蝇}
+营营青蝇，止于樊。岂弟君子，无信谗言。
+
+营营青蝇，止于棘。谗人罔极，交乱四国。
+
+营营青蝇，止于榛。谗人罔极，构我二人。
 \end{block}
 
-\begin{block}{Block 2}
-Pellentesque sed tellus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum quis magna at risus dictum tempor eu vitae velit.
+\begin{block}{山有扶苏}
+山有扶苏，隰有荷华。不见子都，乃见狂且。
+
+山有乔松，隰有游龙，不见子充，乃见狡童。
 \end{block}
 
-\begin{block}{Block 3}
-Suspendisse tincidunt sagittis gravida. Curabitur condimentum, enim sed venenatis rutrum, ipsum neque consectetur orci, sed blandit justo nisi ac lacus.
-\end{block}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Multiple Columns}
+\frametitle{多列布局}
 \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 
 \column{.45\textwidth} % Left column and width
-\textbf{Heading}
+\textbf{小标题}
 \begin{enumerate}
-\item Statement
-\item Explanation
-\item Example
+\item 孤藤
+\item 老树
+\item 昏鸦
 \end{enumerate}
 
 \column{.5\textwidth} % Right column and width
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
+
+风雨凄凄，鸡鸣喈喈，既见君子。云胡不夷？
+
+风雨潇潇，鸡鸣胶胶。既见君子，云胡不瘳？
+
+风雨如晦，鸡鸣不已。既见君子，云胡不喜？
 
 \end{columns}
 \end{frame}
 
 %------------------------------------------------
-\section{Second Section}
+\section{高级用法}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Table}
+\frametitle{表}
 \begin{table}
 \begin{tabular}{l l l}
 \toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+\textbf{项目} & \textbf{数据 1} & \textbf{数据 2}\\
 \midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
+项目 1 & 0.0003262 & 0.562 \\
+项目 2 & 0.0015681 & 0.910 \\
+项目 3 & 0.0009271 & 0.296 \\
 \bottomrule
 \end{tabular}
-\caption{Table caption}
+\caption{表注}
 \end{table}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
+\frametitle{定理}
+\begin{theorem}[质量守恒]
 $E = mc^2$
 \end{theorem}
 \end{frame}
@@ -206,8 +217,8 @@ $E = mc^2$
 %------------------------------------------------
 
 \begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Verbatim}
-\begin{example}[Theorem Slide Code]
+\frametitle{代码}
+\begin{example}[上页的代码]
 \begin{verbatim}
 \begin{frame}
 \frametitle{Theorem}
@@ -221,31 +232,30 @@ $E = mc^2$
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Figure}
-Uncomment the code on this slide to include your own image from the same directory as the template .TeX file.
-%\begin{figure}
-%\includegraphics[width=0.8\linewidth]{test}
-%\end{figure}
+\frametitle{图片}
+\begin{figure}
+\includegraphics[width=0.8\linewidth]{./images/histogram.png}
+\end{figure}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Citation}
-An example of the \verb|\cite| command to cite within the presentation:\\~
+\frametitle{引用}
+使用 \verb|\cite| 命令来添加引用\\~
 
-This statement requires citation \cite{p1}.
+带有引用的文字 \cite{p1}.
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{References}
+\frametitle{参考文献}
 \footnotesize{
 \begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
-\bibitem[Smith, 2012]{p1} John Smith (2012)
-\newblock Title of the publication
-\newblock \emph{Journal Name} 12(3), 45 -- 678.
+\bibitem[张三, 2015]{p1} 张三 (2015)
+\newblock 文献名称
+\newblock \emph{期刊名称} 15(3), 45 -- 678.
 \end{thebibliography}
 }
 \end{frame}
@@ -253,7 +263,7 @@ This statement requires citation \cite{p1}.
 %------------------------------------------------
 
 \begin{frame}
-\Huge{\centerline{The End}}
+\Huge{\centerline{谢谢}}
 \end{frame}
 
 %----------------------------------------------------------------------------------------
